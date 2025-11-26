@@ -117,8 +117,6 @@ static async Task WritingViaArrow(string path)
             Console.WriteLine($"Wrote batch {index} to file {output}");
             index++;
         }
-
-        Console.WriteLine(" ERROR: Arrow write unexpectedly succeeded. This indicates the string issue may be fixed or inconsistent.");
     }
     catch (Exception ex)
     {
